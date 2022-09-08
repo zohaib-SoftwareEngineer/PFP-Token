@@ -7,20 +7,20 @@ import {
   Nav,
   NavbarContainer,
   NavBtn,
-  menubarOuter,
+  // menubarOuter,
   NavBtnLink,
   NavItem,
   NavLinks,
   NavLogo,
   NavMenu,
   SoicalMedia,
-  SoicalMediaIcon,
+  // SoicalMediaIcon,
   MenubarOuter,
 } from './NavbarElements';
-import Opensea from '../../images/Opensea.png';
-import Discord from '../../images/Discord.png';
-import Instagram from '../../images/Instagram.png';
-import Twitter from '../../images/Twitter.png';
+// import Opensea from '../../images/Opensea.png';
+// import Discord from '../../images/Discord.png';
+// import Instagram from '../../images/Instagram.png';
+// import Twitter from '../../images/Twitter.png';
 import logo from '../../images/logo.png';
 // import { _connectButtonWork } from '../../libs/utils';
 // import logo from '../../images/Rowdy Raccoon.png';

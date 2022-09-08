@@ -1,18 +1,18 @@
-import React, {useState} from "react";
+import React from "react";
 import Particles from "react-tsparticles";
 import CoinSlider from "../Animations/Coin Slider";
-import { Heading, Headingdiv, InputMint, InputSection, Megadiv, Mintingspan, Mintingspan2, NavBtnLinkMinus, NavBtnLinkPlus, SubHeading, SubHeading2 } from "./HeroElements";
+import { Heading, Megadiv,  SubHeading, SubHeading2 } from "./HeroElements";
+// Headingdiv, InputMint, InputSection, Mintingspan, Mintingspan2, NavBtnLinkMinus, NavBtnLinkPlus,  MarginDiv, NavBtn, RemainingBG, NavBtnLink,
+ 
 import {
   HeroContainer,
-  MarginDiv,
-  RemainingBG, 
-  Bg,
-  NavBtn,
-  NavBtnLink,
+ 
+  Bg
+  
 } from "./HeroElements";
 
 function HeroSection() {
-  const [value, setValue] = useState(1);
+  // const [value, setValue] = useState(1);
   const particlesInit = (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
