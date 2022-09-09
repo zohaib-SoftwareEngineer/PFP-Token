@@ -7,7 +7,7 @@ import {
   // Welcomeimg,
   SubtitleSpan,
   // Imagediv,
-  SubtitleSpan2,
+  // SubtitleSpan2,
   // Mintingspan2,
   
 } from "./WelcomeElements";
