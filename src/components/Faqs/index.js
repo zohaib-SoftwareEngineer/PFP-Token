@@ -4,11 +4,10 @@ import {
   ServicesH2,
   Faqsdiv,
   Headingdiv,
-  Mintingspan2,
   Heading,
-  Mintingspan,
+  SubtitleSpan2,
  
-} from './ServicesElements';
+} from './FAQsElements';
 import Faq from 'react-faq-component';
 
 const data = {
@@ -16,8 +15,8 @@ const data = {
   rows: [
     {
       title:
-        "Lorem ipsum dolor sit amet consectetur?",
-      content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto unde voluptas atque culpa! Quo, possimus doloremque. Debitis ducimus saepe perspiciatis placeat culpa quibusdam vel cupiditate, odio expedita esse voluptatibus.`,
+        "How do I buy a PFP token?",
+      content: `Create an account, connect to your account, choose a payment method: direct wallet transfer or Metamask connection, and approve the payment. You are now officially part of the PFP project. Approve the payment. You are officially into the PFP project.`,
     },
   ],
 };
@@ -26,8 +25,8 @@ const data1 = {
   rows: [
     {
       title:
-        "Lorem ipsum dolor sit amet consectetur ?",
-      content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias aspernatur nisi! Perferendis quia, ea enim dolores sequi corrupti sapiente, quod atque illo, fugiat optio aliquid? Et voluptates inventore nam!`,
+        "Can I sell my PFP token ?",
+      content: `You will be able to sell PFP tokens after the ICO. PFP will be available on the most famous swap platforms to minimize friction.`,
     },
   ],
 };
@@ -36,8 +35,8 @@ const data2 = {
   rows: [
     {
       title:
-        "Lorem ipsum dolor sit, amet consectetur?",
-      content: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima.`,
+        "Are there fees?",
+      content: `There are no fees and you do not need to pay Zakat. Only ambassadors and the team’s wallets are subject to fees.`,
     },
   ],
 };
@@ -46,26 +45,17 @@ const data3 = {
   rows: [
     {
       title:
-        "Lorem ipsum dolor sit, amet consectetur?",
-      content: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima.`,
-    },
-  ],
-};
-const data4 = {
-  title: "",
-  rows: [
-    {
-      title:
-        "Lorem ipsum dolor sit, amet consectetur?",
-      content: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, minima.`,
+        "How PFP pays Zakat",
+      content: `The coin is owned by UNRWA USA at 36%, the association withdraws 7.5% of their share every year, with a part burned to prevent the coin from suffering too much sales pressure. Beyond that, when a wallet of the team or ambassadors sells coins, it is automatically charged fees which are automatically returned to the wallet of the NGO.`,
     },
   ],
 };
 
+
 const styles = {
-  bgColor: '#000',
-  titleTextColor: '#fff',
-  rowTitleColor: '#fff',
+  bgColor: '#f9f9f9',
+  titleTextColor: '#e99b04',
+  rowTitleColor: '#e99b04',
   fontFamily: "Orbitron, sans-serif",
   
   // rowContentColor: 'grey',
@@ -82,12 +72,11 @@ const Services = props => {
   return (
     <ServicesContainer id="faq">
       <Headingdiv>
-        <Heading>
-          &nbsp;<Mintingspan>Frequently</Mintingspan>
-          <br />
-          Asked &nbsp;
-          <Mintingspan2>Questions</Mintingspan2>
-        </Heading>
+      <Heading>FAQs</Heading>
+    
+      <SubtitleSpan2>
+      Every Lunar New Year, 5% of the shares held by the NGO will be donated to UNRWA or burned. 
+      </SubtitleSpan2>
       </Headingdiv>
       <ServicesH2>FAQ'S</ServicesH2>
       <Faqsdiv>
@@ -99,33 +88,7 @@ const Services = props => {
           <div style={{ marginTop: 20 }}></div>
           <Faq data={data3} styles={styles} config={config} />
           <div style={{ marginTop: 20 }}></div>
-          <Faq data={data4} styles={styles} config={config} />
-          <div style={{ marginTop: 20 }}></div>
-        {/* <div style={{ marginTop: 20 }}></div>
-        <Faq data={data5} styles={styles} config={config} /> */}
-        {/* <Faqimg src={Faq2} alt="loading" /> */}
-        {/* <div style={{ flexDirection: 'column' }}>
-          {' '}
-          <Card
-            front='What is the minting process'
-            back='Connect your wallet to the Cheeky Lion Club website and mint
-        1 to 10 random Lions for 0.07 eth each.'
-          />
-          <Card
-            front='Secondary Royalties'
-            back='0.5% lifetime for minters. 1.5% for Lion holders 4% Marketing and Team'
-          />
-          <Card
-            front='Enter the Club Bar'
-            back='Details on how to prove membership will be shared shortly after launch.'
-          />
-          <Card
-            front='Members only Poker Night'
-            back='You will have access to our members only online private poker rooms and tables,
-        where you can compete against fellow Cheeky Lion members.'
-          />
-        </div> */}
-        {/* <Faqimg src={Faq1} alt="loading" /> */}
+       
       </Faqsdiv>
     </ServicesContainer>
   );

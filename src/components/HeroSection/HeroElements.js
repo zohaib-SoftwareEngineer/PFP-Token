@@ -10,7 +10,7 @@ export const Bg = styled.div`
   min-width: 100%;
   min-height: 100%;
   /* background-size: cover; */
-  height: 759px;
+  height: 637px;
   /* background-position: center; */
   border-bottom: 3px solid #00abcb;
 
@@ -242,7 +242,7 @@ export const Heading = styled.h3`
   text-align: center;
   color: #fff;
   font-family: "Orbitron", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 4.5vw;
   margin-top: 4rem;
@@ -265,7 +265,7 @@ export const SubHeading = styled.h4`
   font-weight: 350;
   text-transform: uppercase;
   font-size: 3vw;
-  /* margin-top: 4rem; */
+  margin-top: -1rem;
 
   @media screen and (max-width: 480px) {
     font-size: 30px;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CardstyleBack, CardstyleFront } from "./ServicesElements";
+import { CardstyleBack, CardstyleFront } from "./FAQsElements";
 import ReactCardFlip from "react-card-flip";
 
 const Card = (props) => {

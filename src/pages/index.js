@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
-// import Welcome from "../components/Welcomesection";
+import Welcome from "../components/AboutPFP";
+import OverView from "../components/OverView";
+import Intro from "../components/Introduction";
+import Invest from "../components/WhyInvest";
+import TokenEconomics from "../components/TokenEconomics";
+import FAQs from "../components/Faqs";
 // import WelcomeRemainings from "../components/Welcomesection2"
 // import Road from '../components/Road';
 // import Road1 from "../components/Road1";
@@ -28,7 +33,14 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <div></div>
-      <HeroSection />
+      <HeroSection/>
+      <Welcome/>
+      <OverView/>
+      <Intro/>
+      <Invest/>
+      <TokenEconomics/>
+      <FAQs/>
+      
     </div>
   );
 }
