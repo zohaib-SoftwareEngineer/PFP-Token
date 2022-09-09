@@ -8,6 +8,7 @@ import Intro from "../components/Introduction";
 import Invest from "../components/WhyInvest";
 import TokenEconomics from "../components/TokenEconomics";
 import FAQs from "../components/Faqs";
+import Roadmap from "../components/RoadmapFinal";
 // import WelcomeRemainings from "../components/Welcomesection2"
 // import Road from '../components/Road';
 // import Road1 from "../components/Road1";
@@ -39,6 +40,7 @@ function Home() {
       <Intro/>
       <Invest/>
       <TokenEconomics/>
+      <Roadmap/>
       <FAQs/>
       
     </div>

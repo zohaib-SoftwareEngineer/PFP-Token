@@ -26,7 +26,7 @@ export const Faqsdiv = styled.div`
   margin-top: 5rem;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  padding: 1rem 0;
+  padding: 3rem 0 1rem 0;
   border-color: #000;
   box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 68%);
 
