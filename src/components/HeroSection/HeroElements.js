@@ -248,12 +248,12 @@ export const Heading = styled.h3`
   margin-top: 4rem;
 
   @media screen and (max-width: 480px) {
-    font-size: 30px;
+    font-size: 2.2rem;
     justify-content: center;
     display: flex;
     width: 100%;
     margin-bottom: 0px !important;
-    margin-top: 20px;
+    margin-top: 4rem;
   }
 `;
 
@@ -268,7 +268,7 @@ export const SubHeading = styled.h4`
   margin-top: -1rem;
 
   @media screen and (max-width: 480px) {
-    font-size: 30px;
+    font-size: 1.5rem;
     justify-content: center;
     display: flex;
     width: 100%;
@@ -288,7 +288,7 @@ export const SubHeading2 = styled.h4`
   /* margin-top: 4rem; */
 
   @media screen and (max-width: 480px) {
-    font-size: 30px;
+    font-size: 1.2rem;
     justify-content: center;
     display: flex;
     width: 100%;

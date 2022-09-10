@@ -59,6 +59,11 @@ export const NavLogo = styled(LinkR)`
   @media screen and (max-width: 960px) {
     width: 50%;
   }
+  @media screen and (max-width: 420px) {
+    width: 86%;
+    display: flex;
+  justify-content: flex-start;
+  }
 `;
 
 export const MobileIcon = styled.div`

@@ -282,6 +282,10 @@ export const EcnomicDiv = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const EcnomicDiv2 = styled.div`

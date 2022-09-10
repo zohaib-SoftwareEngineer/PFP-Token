@@ -6,6 +6,7 @@ import {
   DirectionFlex,
   // Welcomeimg,
   SubtitleSpan,
+  RoadmapDiv,
   // Imagediv,
   // SubtitleSpan2,
   // Mintingspan2,
@@ -27,10 +28,11 @@ const Services = (props) => {
           <SubtitleSpan>
           Our Project Plan will make it success.
           </SubtitleSpan>
-          
         </DirectionFlex>
-      </Welcome>
-      <Roadmap/>
+        </Welcome>
+        <RoadmapDiv>
+          <Roadmap/>
+        </RoadmapDiv>
     </ServicesContainer>
   );
 };
