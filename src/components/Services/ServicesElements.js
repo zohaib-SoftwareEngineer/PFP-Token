@@ -6,6 +6,7 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10rem;
   /* background: linear-gradient(0.25turn, #4c1109, #a0410f, #4c1109); */
   background: linear-gradient(30deg,#d0a435,#ec1f25);;
   /* background: #010606; */
