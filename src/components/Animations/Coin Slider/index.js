@@ -1,5 +1,5 @@
 import React from "react";
-import Heroimage from "../../../images/logo.png";
+import Heroimage from "../../../images/animationCoin.png";
 import "./coinslider.css";
 class CoinSlider extends React.Component {
   componentDidMount() {

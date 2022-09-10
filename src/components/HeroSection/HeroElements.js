@@ -15,7 +15,7 @@ export const Bg = styled.div`
   border-bottom: 3px solid #00abcb;
 
   @media screen and (max-width: 768px) {
-    background-image: url("mobileLogo.jpg");
+    /* background-image: url("mobileLogo.jpg"); */
     height: 693px;
     width: 100%;
   }
