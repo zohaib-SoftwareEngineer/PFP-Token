@@ -7,7 +7,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(0.25turn, #4c1109, #a0410f, #4c1109); */
-  background: #000;
+  background: linear-gradient(30deg,#d0a435,#ec1f25);;
   /* background: #010606; */
 
   @media screen and (max-width: 768px) {
@@ -48,7 +48,7 @@ export const ServicesWrapper2 = styled.div`
   align-items: center;
   grid-gap: 5rem;
   padding: 0 50px;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -85,8 +85,8 @@ export const ServicesIcon = styled.img`
   margin-bottom: 10px;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #ffffffad;
-  box-shadow: 0px 0px 10px 0px rgb(255 255 255 / 68%);
+  border-color: #000;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 68%);
   /* border-radius: 15px; */
 `;
 
@@ -128,16 +128,14 @@ export const Headingdiv = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 3rem 0 0 0;
 `;
 export const Heading = styled.h3`
-  margin: 3rem 0 1rem 0;
-  text-align: center;
-  line-height: 6rem;
-  color: #fff;
+  font-size: 54px;
   font-family: "Orbitron", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 6vw;
+  /* margin-bottom: 0px !important; */
+  color: black;
+  font-weight: 1000;
 
   @media screen and (max-width: 480px) {
     font-size: 30px;
@@ -159,7 +157,7 @@ export const Mintingspan2 = styled.span`
   padding: 0 10px;
   font-family: "Orbitron", sans-serif;
   background-image: linear-gradient(to right, #d0a435, #ec1f24);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 `;

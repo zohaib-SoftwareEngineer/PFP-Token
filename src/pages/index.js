@@ -9,6 +9,7 @@ import Invest from "../components/WhyInvest";
 import TokenEconomics from "../components/TokenEconomics";
 import FAQs from "../components/Faqs";
 import Roadmap from "../components/RoadmapFinal";
+import Team from "../components/Services";
 // import WelcomeRemainings from "../components/Welcomesection2"
 // import Road from '../components/Road';
 // import Road1 from "../components/Road1";
@@ -33,7 +34,6 @@ function Home() {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <div></div>
       <HeroSection/>
       <Welcome/>
       <OverView/>
@@ -42,6 +42,7 @@ function Home() {
       <TokenEconomics/>
       <Roadmap/>
       <FAQs/>
+      <Team/>
       
     </div>
   );

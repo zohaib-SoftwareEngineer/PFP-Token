@@ -39,7 +39,7 @@ class Slider extends React.Component {
   }
   render() {
     return (
-      <section class="timeline">
+      <section className="timeline">
       <ul>
         <li>
           <div>
