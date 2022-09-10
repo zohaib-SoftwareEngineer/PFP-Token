@@ -75,7 +75,7 @@ const Navbar = ({ toggle, props }) => {
               
               <NavItem>
                 <NavLinks
-                  to="Benefits"
+                  to="system"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -87,7 +87,7 @@ const Navbar = ({ toggle, props }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="story"
+                  to="Economics"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -100,7 +100,7 @@ const Navbar = ({ toggle, props }) => {
               
               <NavItem>
                 <NavLinks
-                  to="faq"
+                  to="Roadmap"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -113,7 +113,7 @@ const Navbar = ({ toggle, props }) => {
 
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="faq"
                   smooth={true}
                   duration={500}
                   spy={true}

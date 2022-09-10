@@ -9,6 +9,9 @@ import {
   EcnomicDiv2,
   SubtitleSpan,
   SubtitleSpan3,
+  Headingdiv,
+  Imagediv,
+  Welcomeimg,
   // SocialMedia,
   // NavBtnDiscord,
   // NavBtntwitter,
@@ -17,13 +20,14 @@ import {
   // Mintingspan2,
   
 } from "./EconomicsElements";
+import Allocation from "../../images/tokenallocation.png"
 // import Discord from "../../images/Discord.png";
 // import twitter from "../../images/Twitter.png";
 // import { NavBtn } from "../Navbar/NavbarElements";
 
 const Services = (props) => {
   return (
-    <ServicesContainer id="about">
+    <ServicesContainer id="Economics">
       <Welcome>
        
         <DirectionFlex>
@@ -59,6 +63,12 @@ const Services = (props) => {
             </SubtitleSpan2>
             </EcnomicDiv2>
           </EcnomicDiv>
+          <Headingdiv>
+          <Heading>PFP Token Allocation</Heading>
+          </Headingdiv>
+          <Imagediv>
+          <Welcomeimg src={Allocation} alt="loading" />
+        </Imagediv>
           </DirectionFlex>
           </Welcome>
     </ServicesContainer>

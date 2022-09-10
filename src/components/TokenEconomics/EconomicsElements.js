@@ -56,6 +56,7 @@ export const Heading = styled.h1`
     margin-top: 20px;
   }
 `;
+
 export const Heading1 = styled.span`
   margin-bottom: 24px;
   font-size: 64px;
@@ -142,7 +143,9 @@ export const addMargin = styled.div`
 `;
 export const Imagediv = styled.div`
    display: flex;
-  width: 100%;
+  width: 38%;
+  align-items: center;
+  justify-content: center;
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
@@ -239,6 +242,7 @@ export const Headingdiv = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin: 2rem 0;
   align-items: center;
   justify-content: center;
 `;

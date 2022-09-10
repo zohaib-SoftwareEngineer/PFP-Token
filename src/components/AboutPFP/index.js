@@ -44,7 +44,7 @@ const Services = (props) => {
         <Welcomeimg src={T4} alt="loading" />
       </Imagediv>
       </Welcome>
-    </ServicesContainer>
+      </ServicesContainer>
   );
 };
 
