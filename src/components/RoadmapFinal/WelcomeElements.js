@@ -37,6 +37,7 @@ export const RoadmapDiv = styled.div`
   align-items: center;
   width: 90%;
   display: flex;
+  justify-content: center;
   @media screen and (max-width: 420px) {
     /* flex-direction: column; */
     display: flex;
